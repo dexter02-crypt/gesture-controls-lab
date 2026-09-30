@@ -1,0 +1,50 @@
+test_missing_model_explicit (test_assets.Assets.test_missing_model_explicit) ... ok
+test_receipt_detects_tampering (test_assets.Assets.test_receipt_detects_tampering) ... ok
+test_redirect_restriction (test_assets.Assets.test_redirect_restriction) ... ok
+test_2d_measure_ignores_estimated_depth (test_controls.Gates.test_2d_measure_ignores_estimated_depth) ... ok
+test_calibration_min_samples (test_controls.Gates.test_calibration_min_samples) ... ok
+test_calibration_rejects_overlap (test_controls.Gates.test_calibration_rejects_overlap) ... ok
+test_calibration_separates (test_controls.Gates.test_calibration_separates) ... ok
+test_entry_pinched_does_not_click (test_controls.Gates.test_entry_pinched_does_not_click) ... ok
+test_gap_cancels (test_controls.Gates.test_gap_cancels) ... ok
+test_gray_zone_holds_active (test_controls.Gates.test_gray_zone_holds_active) ... ok
+test_invalid_cancels (test_controls.Gates.test_invalid_cancels) ... ok
+test_invalid_threshold (test_controls.Gates.test_invalid_threshold) ... ok
+test_minimum_palm (test_controls.Gates.test_minimum_palm) ... ok
+test_release_then_single_click (test_controls.Gates.test_release_then_single_click) ... ok
+test_time_reversal (test_controls.Gates.test_time_reversal) ... ok
+test_crossing_ambiguity_new_identity (test_controls.Sessions.test_crossing_ambiguity_new_identity) ... ok
+test_label_dwell (test_controls.Sessions.test_label_dwell) ... ok
+test_low_score_not_accepted (test_controls.Sessions.test_low_score_not_accepted) ... ok
+test_mode_change_cancels (test_controls.Sessions.test_mode_change_cancels) ... ok
+test_persistent_sequences_no_repeated_press (test_controls.Sessions.test_persistent_sequences_no_repeated_press) ... ok
+test_release_needed_after_loss (test_controls.Sessions.test_release_needed_after_loss) ... ok
+test_reordered_ids (test_controls.Sessions.test_reordered_ids) ... ok
+test_slider_in_app_only (test_controls.Sessions.test_slider_in_app_only) ... ok
+test_two_hands_independent (test_controls.Sessions.test_two_hands_independent) ... ok
+test_unknown_label_does_not_block_pinch (test_controls.Sessions.test_unknown_label_does_not_block_pinch) ... ok
+test_bad_time (test_effects.EffectsTests.test_bad_time) ... ok
+test_draw_preserves_inputs (test_effects.EffectsTests.test_draw_preserves_inputs) ... ok
+test_lost_hand_clears_trail (test_effects.EffectsTests.test_lost_hand_clears_trail) ... ok
+test_no_event_no_burst (test_effects.EffectsTests.test_no_event_no_burst) ... ok
+test_particle_capacity (test_effects.EffectsTests.test_particle_capacity) ... ok
+test_press_emits_particles (test_effects.EffectsTests.test_press_emits_particles) ... ok
+test_same_result_not_retriggered (test_effects.EffectsTests.test_same_result_not_retriggered) ... ok
+test_stale_clears_particles (test_effects.EffectsTests.test_stale_clears_particles) ... ok
+test_stale_view_cancels_visuals (test_effects.EffectsTests.test_stale_view_cancels_visuals) ... ok
+test_toggle_clears_effect (test_effects.EffectsTests.test_toggle_clears_effect) ... ok
+test_calibration_suppresses_actions (test_view.ViewTests.test_calibration_suppresses_actions) ... ok
+test_missing_interval_resets_calibration_samples (test_view.ViewTests.test_missing_interval_resets_calibration_samples) ... ok
+test_mode_keyboard_disables_held_state (test_view.ViewTests.test_mode_keyboard_disables_held_state) ... ok
+test_render_unknown_does_not_hide_pinch_control (test_view.ViewTests.test_render_unknown_does_not_hide_pinch_control) ... ok
+test_stale_result_cancels_without_erasing_session_counter (test_view.ViewTests.test_stale_result_cancels_without_erasing_session_counter) ... ok
+test_cleanup_called (test_worker.WorkerTests.test_cleanup_called) ... ok
+test_missing_camera_released (test_worker.WorkerTests.test_missing_camera_released) ... ok
+test_network_camera_refused (test_worker.WorkerTests.test_network_camera_refused) ... ok
+test_one_inflight_no_backlog (test_worker.WorkerTests.test_one_inflight_no_backlog) ... ok
+test_worker_error_surfaces (test_worker.WorkerTests.test_worker_error_surfaces) ... ok
+
+----------------------------------------------------------------------
+Ran 45 tests in 0.123s
+
+OK

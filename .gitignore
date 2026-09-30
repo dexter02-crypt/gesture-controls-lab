@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+models/
+outputs/
+inputs/
+profiles/
+.env
+.env.*
+.DS_Store
+.runtime.json
