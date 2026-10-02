@@ -7,6 +7,8 @@ from common import run_live,label,preview,read_image
 from controls import Controls,pinch_measure,calibrate_thresholds
 from effects import HandFX
 
+__version__ = "0.2.0"
+
 CHAINS=((0,1,2,3,4),(0,5,6,7,8),(5,9,10,11,12),(9,13,14,15,16),(13,17,18,19,20),(0,17))
 
 

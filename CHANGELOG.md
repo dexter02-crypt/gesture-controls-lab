@@ -1,7 +1,17 @@
-# 0.2.0 FX — 2026-09-30
+# Changelog
 
-Display-only pinch particle bursts, neon trails and a two-active-hand bridge. Gesture model and pinch decision rules are unchanged.
+## 0.2.0 — 2026-10-02
 
-# 0.1.0 — Engine comparison candidate
+Initial public release of Gesture Controls Lab — Neon FX.
 
-Standalone candidate. No measured Mac camera accuracy. See VALIDATION.md in the pack.
+- Uses MediaPipe's pretrained gesture recognizer for seven learned gesture categories.
+- Keeps calibrated pinch interaction logic separate from learned gesture classification.
+- Adds bounded pinch-triggered particles, fingertip trails, orbiting rings, and a two-active-hand bridge.
+- Supports in-app pinch counting, drawing, and slider interaction.
+- Does not control the operating-system mouse or keyboard.
+- Does not record or upload camera frames.
+- Preserves uncertainty, stale-result handling, bounded effects, and session resets.
+
+## 0.1.0 — historical source stage
+
+Standalone pre-FX engine candidate retained as project history. No v0.1.0 GitHub release was published from this repository.
