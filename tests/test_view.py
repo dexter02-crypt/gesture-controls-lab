@@ -1,10 +1,12 @@
 """Rendering checks with fabricated landmark results; not native ML tests."""
 import unittest
 import numpy as np
-from app import View
+from app import View, __version__
 from common import Result
 
 class ViewTests(unittest.TestCase):
+    def test_release_version(self):
+        self.assertEqual(__version__, "0.2.0")
     def fixture(self,ratio=.6):
         p=np.tile([.5,.5,0.],(21,1));p[:,1]=np.linspace(.3,.7,21)
         return {'hands':[{'points':p.tolist(),'ratio':ratio,'center':(.5,.5),'cursor':(.5,.5),'label':'None','score':.1}],'rejected':[]}

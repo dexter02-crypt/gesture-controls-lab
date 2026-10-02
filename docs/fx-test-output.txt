@@ -36,6 +36,7 @@ test_toggle_clears_effect (test_effects.EffectsTests.test_toggle_clears_effect) 
 test_calibration_suppresses_actions (test_view.ViewTests.test_calibration_suppresses_actions) ... ok
 test_missing_interval_resets_calibration_samples (test_view.ViewTests.test_missing_interval_resets_calibration_samples) ... ok
 test_mode_keyboard_disables_held_state (test_view.ViewTests.test_mode_keyboard_disables_held_state) ... ok
+test_release_version (test_view.ViewTests.test_release_version) ... ok
 test_render_unknown_does_not_hide_pinch_control (test_view.ViewTests.test_render_unknown_does_not_hide_pinch_control) ... ok
 test_stale_result_cancels_without_erasing_session_counter (test_view.ViewTests.test_stale_result_cancels_without_erasing_session_counter) ... ok
 test_cleanup_called (test_worker.WorkerTests.test_cleanup_called) ... ok
@@ -45,6 +46,6 @@ test_one_inflight_no_backlog (test_worker.WorkerTests.test_one_inflight_no_backl
 test_worker_error_surfaces (test_worker.WorkerTests.test_worker_error_surfaces) ... ok
 
 ----------------------------------------------------------------------
-Ran 45 tests in 0.123s
+Ran 46 tests in 0.096s
 
 OK
